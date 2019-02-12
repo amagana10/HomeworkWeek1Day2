@@ -4,7 +4,7 @@
 4) HashMap - is a class that stores information in key value pairs.
 5) HashTable - is a legacy class that stores information in key value pairs
 6) Difference between hashMap and hashTable- HashMap is newer and can have a null for a key and multiple nulls for values but hashtable cannot. Also hashtable is older and slower. Hashmap can be rearranged to maintain order of the keys used while hashtable does not keep track of any order of the keys.
-7) Set
-8) HashSet
-9) Cocurrent HashMap
-10) What is hashcode and equals methods and how do they differ
+7) Set - an interface that extends collection. Its an unordered collection of objects that has no duplicates
+8) HashSet - a class that implements the set interface using a hashtable
+9) Cocurrent HashMap - is a thread safe version of hashmap
+10) What is hashcode and equals methods and how do they differ- equals method is used to check if two objects are equivalent hashcode method takes the info of am object an generates a code to be used in a hashtable. if two objects are equal then they must have the same hashcode.
