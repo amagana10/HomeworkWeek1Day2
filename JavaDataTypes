@@ -1,9 +1,9 @@
-1) List
-2) Arraylist
-3) Difference between list and arraylist
-4) HashMap
-5) HashTable
-6) Difference between hashMap and hashTable
+1) List- is an interface that extends from the collection interface. It it maintains a collection of items and the order in which they are organized.
+2) Arraylist - is a class that is like an array except it can change its size.
+3) Difference between list and arraylist- ArrayList is a subtype of List. Arraylist is a class while List is an interface. 
+4) HashMap - is a class that stores information in key value pairs.
+5) HashTable - is a legacy class that stores information in key value pairs
+6) Difference between hashMap and hashTable- HashMap is newer and can have a null for a key and multiple nulls for values but hashtable cannot. Also hashtable is older and slower. Hashmap can be rearranged to maintain order of the keys used while hashtable does not keep track of any order of the keys.
 7) Set
 8) HashSet
 9) Cocurrent HashMap
